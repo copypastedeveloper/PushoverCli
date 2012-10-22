@@ -19,7 +19,7 @@ sending messages
 
 any and all available api arguments are available to you.  the downside is that you must name them accurately in the commandline.
 for instance a call for the default user from the default application with a message and priority would look like:
-    PushoverCli.exe message="this is pretty awesome" priority=-1
+    `PushoverCli.exe message="this is pretty awesome" priority=-1`
 have a look at the api for available parameters.  as stated earlier, you can override user and application by passing in the `user` or `token` parameters.  only if they are not supplied is the configuration used.
 
 the log
